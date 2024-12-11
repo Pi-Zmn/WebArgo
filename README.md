@@ -1,5 +1,6 @@
-# DynamicWebassemblyHPC
-This Project provides a Volunteer Computing Platform that is executed in a Web Browser
+# WebArgo
+This Project provides a Volunteer Computing Platform that is executed in a Web Browser.
+Read `WebArgo_Paper.pdf` for more information.
 
 ## Default User (Admin) Credentials
 - Username: AdminUser-Masterarbeit-FBI-Hda

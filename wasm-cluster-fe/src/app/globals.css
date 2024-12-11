@@ -1,0 +1,104 @@
+/* Navigation */
+.navigation-container {
+    min-height: 10vh;
+}
+
+.navigation-text {
+    max-width: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navigation-text {
+        display: none;
+    }
+}
+
+.navigation-img {
+    max-width: 200px;
+    height: auto;
+}
+
+/* Page */
+.page-container {
+    padding: 30px;
+    min-height: 90vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .page-container {
+        padding: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .flex-container {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+/* Client Page & Distribute Page */
+.slim-container {
+    width: 50%;
+    margin-left: 25%;
+}
+
+@media only screen and (max-width: 768px) {
+    .slim-container {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* List Components */
+@media only screen and (min-width: 768px) {
+    .list-container-big {
+        width: 75%;
+        margin: 15px;
+    }
+    .list-container-small {
+        width: 25%;
+        margin: 15px;
+    }
+}
+
+.list-item {
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+/* Active Job Component */
+.progress-label {
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.button-float-left {
+    /*display: flex;
+    justify-content: space-between;
+    flex-grow: 2*/
+}
+
+.button-float-left-stop {
+    margin-left: 15px;
+}
+
+.button-float-right {
+   /* flex-grow: 1;*/
+}
+
+/* Mandelbrot & InteractiveCanvas Component */
+.mandelbrot-thumbnail-container {
+    position:relative;
+}
+
+.mandelbrot-thumbnail {
+    position:absolute;
+    top:0;
+    left:0;
+}

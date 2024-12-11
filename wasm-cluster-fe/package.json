@@ -1,0 +1,32 @@
+{
+  "name": "wasm-cluster-fe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4000",
+    "build": "next build",
+    "start": "next start -p 4000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/third-parties": "^14.2.5",
+    "bootstrap": "^5.3.3",
+    "jose": "^5.7.0",
+    "next": "^14.2.5",
+    "react": "^18",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18",
+    "save": "^2.9.0",
+    "socket.io-client": "^4.7.5",
+    "ua-parser-js": "^1.0.37"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/ua-parser-js": "^0.7.39",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
+    "typescript": "^5"
+  }
+}
